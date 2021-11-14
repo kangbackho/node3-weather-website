@@ -1,17 +1,5 @@
 console.log('clinent side javascript')
 
-// fetch('http://localhost:3000/weather?address=boston').then((response) => {
-//     response.json().then((data2) => {
-//         if(data2.error){
-//             console.log('can not find location .... try again....')
-//         }else{
-
-//             console.log(data2.location)
-//             console.log(data2.temperature[0])
-
-//         }
-//     })
-// })
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
