@@ -10,7 +10,9 @@ const forecast = (latitude, longitude, callback) => {
             callback('we cannot fine that location', undefined)
         }else{
             callback(undefined, {
-                temperature : body.current.temperature
+                temperature : body.current.temperature,
+                humidity : body.current.humidity,
+                wetherDescription : body.current.weather_descriptions
             })
             
             
